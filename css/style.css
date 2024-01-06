@@ -1,13 +1,7 @@
 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   margin: 40px;
-}
-
-.homepage {
-  text-align: center;
-  font-size: 20px;
-  padding: 15px;
 }
 
 .email,
@@ -15,7 +9,7 @@ h1 {
 .photo,
 .contactMe {
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   padding: 15px;
 }
 
@@ -35,6 +29,18 @@ a:hover {
 }
 
 .footer {
-  padding: 200px;
+  padding: 100px;
   text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-size: 20px;
 }
